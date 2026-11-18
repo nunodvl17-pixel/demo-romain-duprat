@@ -1,0 +1,530 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex, nofollow">
+<title>Tapissier décorateur au Bouscat | Romain Duprat</title>
+<meta name="description" content="Romain Duprat, tapissier décorateur au Bouscat (Bordeaux) : entreprise familiale depuis 1976, restauration de chaises, fauteuils et canapés, rideaux, stores, tissus d'éditeurs. Devis gratuit.">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Romain Duprat, tapissier décorateur">
+<meta property="og:title" content="Romain Duprat | Tapissier décorateur au Bouscat">
+<meta property="og:description" content="5,0/5 sur 39 avis Google. Restauration de sièges traditionnelle et contemporaine, showroom de tissus d'éditeurs.">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ProfessionalService",
+  "name": "Romain Duprat, tapissier décorateur",
+  "telephone": "+33556022435",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "76 avenue de la Libération",
+    "addressLocality": "Le Bouscat",
+    "postalCode": "33110",
+    "addressCountry": "FR"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 44.8559333,
+    "longitude": -0.596646
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "opens": "08:00",
+      "closes": "12:00"
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "opens": "14:00",
+      "closes": "18:30"
+    }
+  ]
+}
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#eeeadf; --bg2:#e9e3d6; --vid:#eeeadf; --ink:#24201b; --ink2:#5d554b; --line:rgba(36,32,27,.12);
+  --accent:#11795a; --accent-ink:#fff; --brass:#b8862b; --card:rgba(255,252,246,.78);
+  --serif:"Instrument Serif", Georgia, serif; --sans:Inter, system-ui, -apple-system, sans-serif;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:auto}
+body{margin:0;background:var(--vid);color:var(--ink);font-family:var(--sans);font-size:17px;line-height:1.55;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+a{color:inherit}
+.sr-only{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
+.skip{position:absolute;left:-999px;top:8px;background:#fff;padding:8px 12px;border-radius:8px;z-index:100}
+.skip:focus{left:8px}
+
+/* Bandeau démo */
+.demo-banner{position:fixed;left:0;right:0;bottom:0;z-index:60;background:#24201b;color:#f6f1e8;font-size:12.5px;text-align:center;padding:6px 12px;letter-spacing:.01em}
+
+/* Navigation */
+.nav{position:fixed;top:0;left:0;right:0;z-index:50;padding:14px 16px}
+.nav .in{max-width:1180px;margin:0 auto;display:flex;align-items:center;gap:18px;background:rgba(255,252,246,.72);backdrop-filter:blur(14px) saturate(1.4);-webkit-backdrop-filter:blur(14px) saturate(1.4);border:1px solid var(--line);border-radius:999px;padding:8px 8px 8px 20px}
+.brand{font-family:var(--serif);font-size:24px;text-decoration:none;white-space:nowrap;display:flex;align-items:center;gap:8px}
+.brand svg{width:20px;height:20px;color:var(--accent)}
+.nav ul{display:flex;gap:4px;list-style:none;margin:0 auto;padding:0}
+.nav ul a{display:block;padding:8px 12px;border-radius:999px;text-decoration:none;font-size:14.5px;color:var(--ink2)}
+.nav ul a:hover{background:rgba(36,32,27,.06);color:var(--ink)}
+.call{background:var(--accent);color:var(--accent-ink);text-decoration:none;font-weight:600;font-size:14.5px;padding:10px 18px;border-radius:999px;white-space:nowrap}
+.call .short{display:none}
+@media (max-width:860px){.nav ul{display:none}.nav .in{justify-content:space-between}}
+@media (max-width:420px){.call .long{display:none}.call .short{display:inline}.brand{font-size:21px}}
+
+/* Monde 3D */
+#world{position:fixed;left:0;top:0;width:100vw;height:100vh;height:100lvh;z-index:0;display:block;opacity:0;transition:opacity .6s;transform:translateZ(0)}
+#world.ready{opacity:1}
+
+/* Chapitres */
+main{position:relative;z-index:1}
+.ch{position:relative;height:calc(var(--h,130) * 1vh)}
+.stick{position:sticky;top:0;height:100vh;display:flex;align-items:center;padding:96px max(16px,4vw) 64px;pointer-events:none}
+.stick > *{pointer-events:auto}
+.hero{flex-direction:column;justify-content:space-between;align-items:center;text-align:center}
+.hero .top{margin-top:2vh;padding:18px 28px 26px;border-radius:40px;background:radial-gradient(closest-side, rgba(250,246,238,.92), rgba(250,246,238,.7) 60%, rgba(250,246,238,0))}
+.kicker{font-size:13px;letter-spacing:.14em;text-transform:uppercase;color:var(--ink2);margin:0 0 10px}
+h1{font-family:var(--serif);font-weight:400;font-size:clamp(54px,9vw,120px);line-height:.95;margin:0;letter-spacing:-.01em}
+h1 em,h2 em{color:var(--accent);font-style:italic}
+.sub{font-size:clamp(17px,2vw,21px);color:var(--ink2);margin:14px auto 22px;max-width:30ch}
+.actions{display:flex;gap:10px;justify-content:center;flex-wrap:wrap}
+.pill{display:inline-flex;align-items:center;gap:8px;padding:13px 22px;border-radius:999px;text-decoration:none;font-weight:600;font-size:15.5px}
+.pill svg{width:18px;height:18px}
+.pill-main{background:var(--accent);color:var(--accent-ink);box-shadow:0 8px 24px -10px var(--accent)}
+.pill-ghost{background:rgba(255,252,246,.8);border:1px solid var(--line)}
+.scroll-hint{display:flex;flex-direction:column;align-items:center;gap:8px;font-size:13.5px;color:var(--ink2)}
+.scroll-hint i{width:22px;height:36px;border:1.5px solid var(--ink2);border-radius:12px;position:relative}
+.scroll-hint i::after{content:"";position:absolute;left:50%;top:7px;width:3px;height:7px;margin-left:-1.5px;border-radius:2px;background:var(--ink2);animation:hint 1.6s infinite}
+@keyframes hint{0%{opacity:0;transform:translateY(-3px)}40%{opacity:1}100%{opacity:0;transform:translateY(10px)}}
+.skip-3d{font-size:13.5px;color:var(--ink2);margin-top:8px}
+
+.panel{max-width:380px;background:rgba(255,252,246,.94);border:1px solid rgba(255,255,255,.7);border-radius:26px;padding:26px 28px;box-shadow:0 30px 60px -30px rgba(60,40,10,.35);opacity:0;transform:translateY(24px);transition:opacity .6s ease, transform .6s cubic-bezier(.2,.8,.2,1)}
+.panel.on{opacity:1;transform:none}
+.right .panel{margin-left:auto}
+.step{display:flex;align-items:center;gap:10px;font-size:13px;letter-spacing:.12em;text-transform:uppercase;color:var(--ink2);margin:0 0 8px}
+.step b{display:inline-grid;place-items:center;width:28px;height:28px;border-radius:50%;background:var(--ink);color:var(--bg);font-size:12px;letter-spacing:0}
+h2{font-family:var(--serif);font-weight:400;font-size:clamp(34px,4.4vw,52px);line-height:1;margin:0 0 12px}
+.panel p{margin:0;color:var(--ink2)}
+.panel p + p{margin-top:10px}
+.mat{display:inline-block;font-size:13px;background:rgba(36,32,27,.06);border-radius:999px;padding:4px 10px;margin:12px 6px 0 0;color:var(--ink)}
+
+/* Nuancier */
+.swatches{display:flex;flex-wrap:wrap;gap:10px;margin:16px 0 4px}
+.sw{appearance:none;border:0;cursor:pointer;display:flex;flex-direction:column;align-items:center;gap:6px;background:none;font:inherit;font-size:12.5px;color:var(--ink2);padding:0}
+.sw i{width:44px;height:44px;border-radius:50%;background:var(--c);box-shadow:inset 0 -6px 10px rgba(0,0,0,.18), 0 0 0 2px #fff, 0 0 0 3px transparent;transition:box-shadow .25s, transform .25s}
+.sw[aria-pressed="true"] i{box-shadow:inset 0 -6px 10px rgba(0,0,0,.18), 0 0 0 2px #fff, 0 0 0 4px var(--ink);transform:scale(1.06)}
+.sw:focus-visible i{outline:2px solid var(--ink);outline-offset:4px}
+
+@media (max-width:760px){
+  .stick{align-items:flex-end;padding:0 16px 54px}
+  .panel{max-width:none;width:100%;padding:20px 20px;border-radius:22px}
+  .right .panel{margin-left:0}
+  h2{font-size:34px}
+  .panel p{font-size:15.5px}
+  .hero{padding-top:110px}
+  .swatches{gap:8px}.sw i{width:38px;height:38px}.sw{font-size:11.5px}
+}
+
+/* L'essentiel */
+.essentiel{position:relative;z-index:2;background:#fffdf8;border-top:1px solid var(--line);padding:90px 16px 120px}
+.wrap{max-width:1080px;margin:0 auto}
+.essentiel h2{font-size:clamp(40px,5vw,64px)}
+.lead{color:var(--ink2);max-width:52ch;margin:0 0 40px}
+.grid{display:grid;gap:16px;grid-template-columns:repeat(auto-fit,minmax(240px,1fr))}
+.card{background:#fff;border:1px solid var(--line);border-radius:20px;padding:22px}
+.card h3{font-family:var(--serif);font-weight:400;font-size:27px;margin:0 0 6px}
+.card p{margin:0;color:var(--ink2);font-size:15.5px}
+.blk{margin-top:64px;scroll-margin-top:90px}
+.card .price{font-family:var(--serif);font-size:34px;color:var(--ink);margin:6px 0 2px}
+.price small{font-family:var(--sans);font-size:14px;color:var(--ink2)}
+.note{font-size:13.5px;color:var(--ink2);margin-top:12px}
+.stars{color:var(--brass);letter-spacing:2px}
+.quote{font-size:16px;color:var(--ink)}
+.who{display:block;margin-top:10px;font-size:13.5px;color:var(--ink2)}
+.score{display:flex;align-items:baseline;gap:12px;margin-bottom:18px}
+.score b{font-family:var(--serif);font-size:56px;font-weight:400}
+.hours{width:100%;border-collapse:collapse;font-size:15.5px}
+.hours th,.hours td{text-align:left;padding:8px 0;border-bottom:1px solid var(--line);font-weight:400}
+.hours td{text-align:right;color:var(--ink2)}
+.hours tr.today th,.hours tr.today td{font-weight:600;color:var(--ink)}
+.steps3{counter-reset:s;display:grid;gap:16px;grid-template-columns:repeat(auto-fit,minmax(220px,1fr))}
+.steps3 .card::before{counter-increment:s;content:counter(s);display:inline-grid;place-items:center;width:30px;height:30px;border-radius:50%;background:var(--accent);color:#fff;font-weight:600;font-size:14px;margin-bottom:10px}
+.cta{margin-top:64px;background:var(--ink);color:var(--bg);border-radius:28px;padding:40px 28px;text-align:center}
+.cta h2{color:var(--bg)}
+.cta p{color:#cfc5b6;margin:0 auto 22px;max-width:44ch}
+footer{padding:28px 16px 60px;text-align:center;font-size:13.5px;color:var(--ink2);background:#fffdf8}
+
+@media (prefers-reduced-motion:reduce){.panel{transition:none}.scroll-hint i::after{animation:none}}
+</style>
+</head>
+<body>
+<a class="skip" href="#essentiel">Aller au contenu</a>
+<div class="demo-banner" role="note">Démo non officielle, tarifs indicatifs</div>
+
+<nav class="nav" aria-label="Navigation principale">
+  <div class="in">
+    <a class="brand" href="#top"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M5 11V7a3 3 0 0 1 3-3h8a3 3 0 0 1 3 3v4"/><path d="M3 12a2 2 0 0 1 4 0v2h10v-2a2 2 0 0 1 4 0v5H3z"/><path d="M5 17v3M19 17v3"/></svg>Romain Duprat</a>
+    <ul>
+      <li><a href="#ess-prestations">Prestations</a></li>
+      <li><a href="#tarifs">Tarifs</a></li>
+      <li><a href="#avis">Avis</a></li>
+      <li><a href="#horaires">Horaires</a></li>
+      <li><a href="#essentiel">L'essentiel</a></li>
+    </ul>
+    <a class="call" href="tel:+33556022435"><span class="long">Demander un devis</span><span class="short">Devis</span></a>
+  </div>
+</nav>
+
+<canvas id="world" aria-hidden="true"></canvas>
+
+<main id="top">
+  <section class="ch" id="hero" style="--h:110">
+    <div class="stick hero">
+      <div class="top">
+        <p class="kicker">Tapissier décorateur, Le Bouscat</p>
+        <h1>Romain Duprat<em>.</em></h1>
+        <p class="sub">L'entreprise familiale fondée par Didier Duprat en 1976, reprise par son fils Romain en 2016.</p>
+        <div class="actions">
+          <a class="pill pill-main" href="tel:+33556022435"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.7a2 2 0 0 1-.5 2.1L8 9.8a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.7.7a2 2 0 0 1 1.7 2Z"/></svg>Demander un devis</a>
+          <a class="pill pill-ghost" href="#tarifs">Voir les tarifs</a>
+        </div>
+      </div>
+      <div>
+        <div class="scroll-hint" aria-hidden="true"><i></i>Faites défiler&nbsp;: on monte un canapé sous vos yeux</div>
+        <a class="skip-3d" href="#essentiel">ou voir directement les tarifs, avis et horaires ↓</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="ch" id="bois" style="--h:150">
+    <div class="stick"><div class="panel">
+      <p class="step"><b>1</b>La carcasse</p>
+      <h2>Tout commence par <em>le bois.</em></h2>
+      <p>Le socle est monté en premier&nbsp;: traverses chevillées et collées, cales d'angle vissées, piètement ajusté. Une structure saine, vérifiée pièce par pièce, pour des dizaines d'années.</p>
+    </div></div>
+  </section>
+
+  <section class="ch right" id="forme" style="--h:150">
+    <div class="stick"><div class="panel">
+      <p class="step"><b>2</b>La forme</p>
+      <h2>Le dossier prend <em>sa courbe.</em></h2>
+      <p>Les arceaux cintrés et le dossier dessinent la silhouette du canapé, puis les sangles sont tendues et croisées sous l'assise.</p>
+      <span class="mat">Arceaux</span><span class="mat">Sangles</span>
+    </div></div>
+  </section>
+
+  <section class="ch" id="mousse" style="--h:150">
+    <div class="stick"><div class="panel">
+      <p class="step"><b>3</b>La mousse</p>
+      <h2>L'assise prend <em>du corps.</em></h2>
+      <p>Une toile de jute tendue sur les sangles, puis la mousse, découpée sur mesure, qui épouse chaque courbe du siège, jusqu'aux coussins.</p>
+      <span class="mat">Jute</span><span class="mat">Mousse HR</span>
+    </div></div>
+  </section>
+
+  <section class="ch right" id="fini" style="--h:160">
+    <div class="stick"><div class="panel">
+      <p class="step"><b>4</b>Crin et tissu</p>
+      <h2>Le moelleux, puis <em>le tissu.</em></h2>
+      <p>Le crin donne au siège sa tenue. Le tissu, choisi au showroom parmi les collections des éditeurs, est posé et tendu, puis viennent les coussins. Devis gratuit, et livraison dans toute la métropole bordelaise.</p>
+      <span class="mat">Traditionnel</span><span class="mat">Contemporain</span>
+      <div class="actions" style="justify-content:flex-start;margin-top:16px"><a class="pill pill-main" href="tel:+33556022435">Demander un devis</a></div>
+    </div></div>
+  </section>
+</main>
+
+<section class="essentiel" id="essentiel" aria-labelledby="ess-t">
+  <div class="wrap">
+    <p class="kicker">L'essentiel</p>
+    <h2 id="ess-t">Tout savoir <em>en un coup d'œil.</em></h2>
+    <p class="lead">Prestations, tarifs, avis, adresse et horaires de l'atelier.</p>
+
+    <div class="blk" id="ess-prestations">
+      <h2 style="font-size:36px">Prestations</h2>
+      <div class="grid">
+        <div class="card"><h3>Restauration de sièges</h3><p>Chaises, fauteuils et canapés, en traditionnel comme en contemporain.</p></div>
+        <div class="card"><h3>Rideaux et voilages</h3><p>Confection sur mesure de voilages et de rideaux.</p></div>
+        <div class="card"><h3>Tringles et stores</h3><p>Installation de tringles et de stores intérieurs&nbsp;: rouleaux, californiens, vénitiens et plissés.</p></div>
+        <div class="card"><h3>Tissus et tapis d'éditeurs</h3><p>Un showroom avec Manuel Canovas, Lelièvre, Nobilis, Jab, Casamance, Pierre Frey et bien d'autres.</p></div>
+        <div class="card"><h3>Livraison</h3><p>Déplacement dans toute la métropole bordelaise pour livrer vos travaux.</p></div>
+        <div class="card"><h3>Devis gratuit</h3><p>Pour toute question ou pour prendre rendez-vous, contactez l'atelier.</p></div>
+      </div>
+    </div>
+
+    <div class="blk" id="tarifs">
+      <h2 style="font-size:36px">Tarifs</h2>
+      <div class="grid">
+        <div class="card"><h3>Chaise</h3><p class="price">dès 150 € <small>hors tissu</small></p><p>Assise garnie, mousse ou crin.</p></div>
+        <div class="card"><h3>Fauteuil cabriolet</h3><p class="price">dès 450 € <small>hors tissu</small></p><p>Réfection complète, sangles et ressorts.</p></div>
+        <div class="card"><h3>Bergère</h3><p class="price">dès 650 € <small>hors tissu</small></p><p>Avec coussin d'assise.</p></div>
+        <div class="card"><h3>Canapé</h3><p class="price">sur devis</p><p>Selon la taille et la garniture.</p></div>
+      </div>
+      <p class="note">Tarifs indicatifs, donnés pour l'exemple. Le prix exact dépend du siège et du tissu choisi.</p>
+    </div>
+
+    <div class="blk" id="avis">
+      <h2 style="font-size:36px">Avis</h2>
+      <div class="score"><b>5,0</b><span><span class="stars" aria-hidden="true">★★★★★</span><br>39 avis Google</span></div>
+      <div class="grid">
+        <div class="card"><p class="quote">« Je recommande vivement ce tapissier. Je lui ai confié 2 fauteuils qui ont été remarquablement recouverts. (…) »</p><span class="who">Hortense de B., avis Google</span></div>
+        <div class="card"><p class="quote">« Un grand merci à Messieurs Duprat (père et fils) pour leur excellent travail. (…) »</p><span class="who">Carla S., avis Google</span></div>
+        <div class="card"><p class="quote">« (…) Nous sommes là dans le grand artisanat à l'ancienne...et d'aujourd'hui (…) »</p><span class="who">Jean Claude, avis Google</span></div>
+      </div>
+      <p class="note"><a href="https://www.google.com/maps/search/?api=1&amp;query=Romain+Duprat+tapissier+76+avenue+de+la+Lib%C3%A9ration+33110+Le+Bouscat">Lire les avis sur Google</a></p>
+    </div>
+
+    <div class="blk" id="horaires">
+      <h2 style="font-size:36px">Adresse et horaires</h2>
+      <div class="grid">
+        <div class="card"><h3>L'atelier</h3><p>76 avenue de la Libération<br>33110 Le Bouscat</p><p style="margin-top:10px"><a href="tel:+33556022435">05 56 02 24 35</a></p><p style="margin-top:10px"><a href="mailto:duprat.fils@hotmail.fr">duprat.fils@hotmail.fr</a></p><p style="margin-top:10px"><a href="https://www.google.com/maps/search/?api=1&amp;query=Romain+Duprat+tapissier+76+avenue+de+la+Lib%C3%A9ration+33110+Le+Bouscat">Itinéraire</a></p></div>
+        <div class="card">
+          <table class="hours" data-hours>
+            <caption class="sr-only">Horaires d'ouverture</caption>
+            <tr data-d="1"><th scope="row">Lundi</th><td>8h – 12h, 14h – 18h30</td></tr>
+            <tr data-d="2"><th scope="row">Mardi</th><td>8h – 12h, 14h – 18h30</td></tr>
+            <tr data-d="3"><th scope="row">Mercredi</th><td>8h – 12h, 14h – 18h30</td></tr>
+            <tr data-d="4"><th scope="row">Jeudi</th><td>8h – 12h, 14h – 18h30</td></tr>
+            <tr data-d="5"><th scope="row">Vendredi</th><td>8h – 12h, 14h – 18h30</td></tr>
+            <tr data-d="6"><th scope="row">Samedi</th><td>Fermé</td></tr>
+            <tr data-d="0"><th scope="row">Dimanche</th><td>Fermé</td></tr>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <div class="blk">
+      <h2 style="font-size:36px">Comment ça marche</h2>
+      <div class="steps3">
+        <div class="card"><h3>Le premier contact</h3><p>Appelez, écrivez ou passez au showroom du Bouscat.</p></div>
+        <div class="card"><h3>Le devis</h3><p>Un devis gratuit, et le choix du tissu parmi les collections des éditeurs.</p></div>
+        <div class="card"><h3>La réfection</h3><p>Votre siège est restauré, puis livré chez vous dans la métropole bordelaise.</p></div>
+      </div>
+    </div>
+
+    <div class="cta">
+      <h2>Un siège à <em>refaire&nbsp;?</em></h2>
+      <p>Appelez l'atelier&nbsp;: devis gratuit.</p>
+      <a class="pill pill-main" href="tel:+33556022435">05 56 02 24 35</a>
+    </div>
+  </div>
+</section>
+<footer>Romain Duprat, tapissier décorateur · 76 avenue de la Libération, 33110 Le Bouscat</footer>
+
+<script>
+// Horaires : surligne le jour
+(function(){const d=new Date().getDay();document.querySelectorAll('[data-hours] tr').forEach(tr=>{if(+tr.dataset.d===d)tr.classList.add('today')});})();
+</script>
+
+<script>
+// Lecteur image par image piloté par le défilement (repris du modèle toiletteur).
+// Vidéo : modeles/tapissier/video/assemblage-v6.mp4 + assemblage-plan2.mp4, découpées en images.
+(function () {
+  var canvas = document.getElementById('world');
+  var ctx = canvas.getContext('2d', { alpha: false });
+  var small = window.matchMedia('(max-width: 760px)').matches || !!(navigator.connection && navigator.connection.saveData);
+  var BASE = small ? 'video/frames-m/' : 'video/frames/';
+  var VID = '#eeeadf';
+  var reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    var pad = function (n) { return String(n).padStart(4, '0'); };
+
+  // ---- Défilement par étapes : un geste (molette, pavé tactile, doigt, clavier) = un assemblage joué comme un plan de film ----
+  // Étape k : on glisse jusqu'au chapitre k et la vidéo se joue de STOPS[k-1] à STOPS[k]. Après le canapé fini, défilement normal.
+  var STEPS = ['hero', 'bois', 'forme', 'mousse', 'fini'];
+  // Arrêts choisis image par image (sur 240) : chaque étape s'arrête sur une image nette, rien en vol.
+  // Vidéo video/etapes-plan1.mp4 (Veo, 15 s, 180 images) : arrêts sur ses pauses, trouvées par outils/trouver_pauses.py
+  // 9 toutes les pièces au sol · 58 socle monté, le reste encore au sol · 113 arceaux, dossier et sangles
+  // 142 toute la mousse jaune, oreillers posés (141-142 corrigées : crin effacé en haut, originaux dans video/originaux-corriges) · 173 crin puis tissu : canapé fini
+  var STOPS = [9, 58, 113, 142, 173].map(function (f) { return f / 179; });
+  var LAST = STEPS.length - 1, snapOn = !reduce, step = 0, vNow = 0, vAnim = null, sAnim = null, ours = false, busyUntil = 0;
+  var ess = document.getElementById('essentiel');
+  function stepTop(k) { return k === 0 ? 0 : document.getElementById(STEPS[k]).offsetTop; }
+  function easeScroll(t) { return t < .5 ? 4 * t * t * t : 1 - Math.pow(-2 * t + 2, 3) / 2; }
+  function easeFilm(t) { return -(Math.cos(Math.PI * t) - 1) / 2; }
+  function nearest() { var y = window.scrollY, k = 0; for (var i = 1; i <= LAST; i++) if (y >= stepTop(i) - innerHeight * 0.5) k = i; return k; }
+  function playTo(v) { var d = Math.min(2800, Math.max(1000, Math.abs(v - vNow) * 9000)); vAnim = { a: vNow, b: v, t0: performance.now(), d: d }; }
+  function glideTo(y, d) { ours = true; sAnim = { a: window.scrollY, b: y, t0: performance.now(), d: d || 850 }; }
+  (function loop(now) {
+    if (vAnim) { var t = (now - vAnim.t0) / vAnim.d; if (t >= 1) { vNow = vAnim.b; vAnim = null; } else vNow = vAnim.a + (vAnim.b - vAnim.a) * easeFilm(t); }
+    if (sAnim) { var u = (now - sAnim.t0) / sAnim.d; window.scrollTo(0, u >= 1 ? sAnim.b : sAnim.a + (sAnim.b - sAnim.a) * easeScroll(u));
+      if (u >= 1) { sAnim = null; setTimeout(function () { if (!sAnim) ours = false; }, 120); } }
+    requestAnimationFrame(loop);
+  })(performance.now());
+  function inZone(dir) { var y = window.scrollY, t = ess.offsetTop; return y < t - 2 || (dir < 0 && y <= t + 4); }
+  function act(dir) {
+    var now = performance.now();
+    if (now < busyUntil) return;
+    busyUntil = now + 900;
+    if (window.scrollY >= ess.offsetTop - 2) { step = LAST; glideTo(stepTop(LAST)); playTo(1); return; }   // on remonte de « L'essentiel »
+    if (dir > 0 && step === LAST) { glideTo(ess.offsetTop, 950); return; }                                // après le canapé fini
+    var k = Math.min(LAST, Math.max(0, step + dir));
+    if (k === step) { busyUntil = 0; return; }
+    step = k; glideTo(stepTop(k)); playTo(STOPS[k]);
+  }
+  if (snapOn) {
+    step = nearest(); vNow = STOPS[step];
+    // Molette et pavé tactile : un geste = une étape. L'inertie du pavé (flot d'événements sans pause) est ignorée.
+    var lastWheel = 0, lastAbs = 0;
+    window.addEventListener('wheel', function (e) {
+      if (e.ctrlKey || Math.abs(e.deltaY) < Math.abs(e.deltaX)) return;
+      var dir = e.deltaY > 0 ? 1 : -1;
+      if (!inZone(dir)) return;
+      e.preventDefault();
+      var now = performance.now(), gap = now - lastWheel, abs = Math.abs(e.deltaY);
+      var fresh = gap > 160 || (abs > lastAbs * 1.6 + 6 && now > busyUntil);   // nouveau geste : une pause, ou une nouvelle impulsion
+      lastWheel = now; lastAbs = abs;
+      if (fresh) act(dir);
+    }, { passive: false });
+    // Doigt sur téléphone : un glissé = une étape
+    var ty = null, tDone = false;
+    window.addEventListener('touchstart', function (e) { ty = e.touches[0].clientY; tDone = false; }, { passive: true });
+    window.addEventListener('touchmove', function (e) {
+      if (ty === null) return;
+      var dy = ty - e.touches[0].clientY, dir = dy > 0 ? 1 : -1;
+      if (!inZone(dir)) return;
+      e.preventDefault();
+      if (!tDone && Math.abs(dy) > 24) { tDone = true; act(dir); }
+    }, { passive: false });
+    window.addEventListener('touchend', function () { ty = null; }, { passive: true });
+    // Clavier
+    window.addEventListener('keydown', function (e) {
+      var k = e.key, dir = (k === 'ArrowDown' || k === 'PageDown' || (k === ' ' && !e.shiftKey)) ? 1 : (k === 'ArrowUp' || k === 'PageUp' || (k === ' ' && e.shiftKey)) ? -1 : 0;
+      if (!dir || /INPUT|TEXTAREA|SELECT/.test((e.target || {}).tagName || '') || !inZone(dir)) return;
+      e.preventDefault(); act(dir);
+    });
+    // Barre de défilement, liens, retour en haut : on se recale sur l'étape la plus proche
+    var st = null;
+    window.addEventListener('scroll', function () {
+      if (ours) return;
+      clearTimeout(st);
+      st = setTimeout(function () {
+        if (ours || window.scrollY >= ess.offsetTop - 2) return;
+        var k = nearest(); if (k !== step) { step = k; playTo(STOPS[k]); }
+        glideTo(stepTop(k), 500);
+      }, 140);
+    }, { passive: true });
+  }
+
+  fetch(BASE + 'manifest.json').then(function (r) { return r.json(); }).then(start).catch(function () { canvas.remove(); });
+
+  function start(m) {
+    var N = m.count, imgs = new Array(N), order = [], seen = {}, next = 0, dirty = true;
+    var url = function (i) { return BASE + m.pattern.replace('%04d', pad(i)); };
+    [16, 8, 4, 2, 1].forEach(function (s) { for (var i = 0; i < N; i += s) if (!seen[i]) { seen[i] = 1; order.push(i); } });
+    if (order.indexOf(N - 1) > 1) { order.splice(order.indexOf(N - 1), 1); order.splice(1, 0, N - 1); }
+    function pump() {
+      if (next >= order.length) return;
+      var i = order[next++], im = new Image();
+      im.decoding = 'async';
+      im.onload = function () {
+        // décodée une fois pour toutes, hors du défilement : plus d'à-coup au premier affichage
+        var done = function (bm) { imgs[i] = bm || im; dirty = true; pump(); };
+        if (window.createImageBitmap) createImageBitmap(im).then(done, function () { done(); });
+        else if (im.decode) im.decode().then(function () { done(); }, function () { done(); });
+        else done();
+      };
+      im.onerror = pump;
+      im.src = url(i);
+    }
+    for (var k = 0; k < 4; k++) pump();
+
+    var cw = 0, ch = 0, lastIdx = 0, fades = null, pts = null;
+    function resize() {
+      var r = canvas.getBoundingClientRect();
+      // inutile de peindre plus fin que l'image affichée : on plafonne la résolution de la toile
+      var maxW = small ? 1100 : 1700, dpr = Math.min(window.devicePixelRatio || 1, 2, maxW / Math.max(1, r.width));
+      var w = Math.round(r.width * dpr), h = Math.round(r.height * dpr);
+      if (w === cw && h === ch) return;
+      cw = canvas.width = w; ch = canvas.height = h;
+      ctx.imageSmoothingQuality = 'high';
+      fades = null; pts = null;
+      if (!paint(lastIdx)) dirty = true;
+    }
+    new ResizeObserver(resize).observe(canvas);
+    window.addEventListener('load', function () { pts = null; });
+    new ResizeObserver(function () { pts = null; }).observe(document.body);
+
+    var clamp = function (v) { return Math.min(1, Math.max(0, v)); };
+    function below(i) { for (var j = i; j >= 0; j--) if (imgs[j]) return j; return -1; }
+    function above(i) { for (var j = i; j < N; j++) if (imgs[j]) return j; return -1; }
+    // Écran en largeur : l'image couvre tout. Écran en hauteur (téléphone) : l'image garde
+    // ses proportions, un peu agrandie, dans le haut de l'écran, et se fond dans le fond ivoire.
+    function box(im) {
+      var iw = im.naturalWidth || im.width, ih = im.naturalHeight || im.height;
+      if (cw / ch >= 1.1) { // ordinateur : toute la largeur, sans couper le canapé ; bords fondus si l'écran est plus haut
+        var sc = Math.max(cw / iw, ch / ih * 0.8), w0 = iw * sc, h0 = ih * sc; return [(cw - w0) / 2, (ch - h0) / 2, w0, h0]; }
+      var s2 = cw / iw * 1.55, w = iw * s2, h = ih * s2;
+      return [(cw - w) / 2, ch * 0.34 - h / 2, w, h];
+    }
+    function paint(pos) {
+      if (!cw) return false;
+      var a = below(Math.floor(pos)), b = above(Math.ceil(pos));
+      if (a < 0 && b < 0) return false;
+      if (a < 0) a = b; if (b < 0) b = a;
+      var bx = box(imgs[a]);
+      ctx.fillStyle = VID; ctx.fillRect(0, 0, cw, ch);
+      ctx.globalAlpha = 1; ctx.drawImage(imgs[a], bx[0], bx[1], bx[2], bx[3]);
+      if (b !== a) { var wgt = (pos - a) / (b - a); if (wgt > 0.004) { ctx.globalAlpha = wgt; ctx.drawImage(imgs[b], bx[0], bx[1], bx[2], bx[3]); } }
+      ctx.globalAlpha = 1;
+      if (bx[1] > 0) { // bords haut et bas fondus dans le fond (téléphone)
+        var f = bx[3] * 0.18;
+        if (!fades) { var g1 = ctx.createLinearGradient(0, bx[1], 0, bx[1] + f), g2 = ctx.createLinearGradient(0, bx[1] + bx[3] - f, 0, bx[1] + bx[3]);
+          g1.addColorStop(0, VID); g1.addColorStop(1, 'rgba(238,234,223,0)'); g2.addColorStop(0, 'rgba(238,234,223,0)'); g2.addColorStop(1, VID); fades = [g1, g2]; }
+        var g1 = fades[0], g2 = fades[1];
+        ctx.fillStyle = g1; ctx.fillRect(0, bx[1], cw, f); ctx.fillStyle = g2; ctx.fillRect(0, bx[1] + bx[3] - f, cw, f + 1);
+      }
+      return true;
+    }
+
+    // Chaque chapitre est calé sur son moment de la vidéo (0 = début, 1 = canapé fini).
+    // Plan 1 : carcasse 0–5 s, arceaux et dossier 5–8 s, sangles et toile 8–10 s ; plan 2 : mousse, crin, ouate 11–15 s, tissu 15–18 s, coussins 18–19 s.
+    var KEYS = [['hero', 0, 0.05], ['bois', 0, 0.05], ['forme', 0, 0.32], ['mousse', 0, 0.63], ['fini', 0, 0.78], ['fini', 0.4, 0.97]];
+    function videoAt(y) {
+      if (!pts) pts = KEYS.map(function (k) { var el = document.getElementById(k[0]); return [el.offsetTop + el.offsetHeight * k[1] - (k[1] ? 0 : innerHeight * 0.35), k[2]]; });
+      pts[0][0] = 0;
+      if (y <= pts[0][0]) return 0;
+      for (var i = 1; i < pts.length; i++) if (y < pts[i][0]) return pts[i - 1][1] + (pts[i][1] - pts[i - 1][1]) * (y - pts[i - 1][0]) / Math.max(1, pts[i][0] - pts[i - 1][0]);
+      return 1;
+    }
+    var shown = '', first = true, pos = null, prev = null;
+    function tick(now) {
+      var dt = prev === null ? 16 : Math.min(64, now - prev); prev = now;
+      var p = snapOn ? vNow : videoAt(window.scrollY);
+      var target = reduce ? (p < .5 ? 0 : N - 1) : p * (N - 1);
+      if (window.__p != null) target = window.__p * (N - 1);                    // réglage de test
+      if (pos === null || reduce || snapOn || Math.abs(target - pos) > N * 0.3) pos = target;   // en mode étapes, le film est déjà lissé
+      else pos += (target - pos) * (1 - Math.exp(-dt / 140));
+      if (Math.abs(target - pos) < 0.002) pos = target;
+      lastIdx = pos;
+      var key = pos.toFixed(3);
+      if (key !== shown || dirty) {
+        if (paint(pos)) { shown = key; dirty = false; if (first) { first = false; canvas.classList.add('ready'); } }
+      }
+      requestAnimationFrame(tick);
+    }
+    requestAnimationFrame(tick);
+  }
+
+  // panneaux qui apparaissent
+  var io = new IntersectionObserver(function (es) { es.forEach(function (e) { e.target.classList.toggle('on', e.isIntersecting); }); }, { threshold: 0.35 });
+  document.querySelectorAll('.panel').forEach(function (el) { io.observe(el); });
+})();
+</script>
+</body>
+</html>
